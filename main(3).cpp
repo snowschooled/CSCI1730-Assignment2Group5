@@ -25,7 +25,7 @@ int main()
 			cout<<"The 3rd Fibonacci number is 1 ";
 		else if (n > 2)
 		{fibNumber = fibonacci(n);
-		 cout << "The " << n <<"th " << "Fibonacci number is: "<< fibNumber <<" ";}
+		 cout << "The " << n <<"th " << "Fibonacci number is: "<< fibNumber <<" " << endl;}
 	}
 	while (n >= 1);
 	return 0;
@@ -33,11 +33,12 @@ int main()
 
 int fibonacci(int n)
 {
-	/*if((n==1)||(n==0))
-	   {
-	        return(n);
-	   }
-	   else
-	   {*/
-	return(fibonacci(n-1)+fibonacci(n-2));
+	if((n==1)||(n==0))
+	{
+		return(n);
+	}
+	else
+	{
+		return(fibonacci(n-1)+fibonacci(n-2));
+	}
 }

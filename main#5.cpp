@@ -1,3 +1,5 @@
+//CSCI Group 5 assignment 2 problem #5
+//Joel Piontek, Andrew Amakye Ansah, Adem Boru
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
